@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filterable responsive lightbox gallery tutorial</title>
+
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div class="gallery">
+
+    <ul class="controls">
+        <li class="buttons active" data-filter="all">all</li>
+        <li class="buttons" data-filter="ice-cream">ice-cream</li>
+        <li class="buttons" data-filter="chocolate">chocolate</li>
+        <li class="buttons" data-filter="cake">cake</li>
+        <li class="buttons" data-filter="juice">juice</li>
+        <li class="buttons" data-filter="sandwich">sandwich</li>
+    </ul>
+
+    <div class="image-container">
+
+        <a href="https://img.freepik.com/free-photo/sweet-ice-cream-cone-with-strawberry-generative-ai_188544-12340.jpg?ga=GA1.1.398998164.1711866603&semt=ais_user" class="image ice-cream">
+            <img src="https://img.freepik.com/free-photo/sweet-ice-cream-cone-with-strawberry-generative-ai_188544-12340.jpg?ga=GA1.1.398998164.1711866603&semt=ais_user" alt="">
+        </a>
+        <a href="https://img.freepik.com/premium-photo/chocolate-strawberry-vanilla-ice-cream-generative-ai_786587-13546.jpg?ga=GA1.1.398998164.1711866603&semt=ais_user" class="image ice-cream">
+            <img src="https://img.freepik.com/premium-photo/chocolate-strawberry-vanilla-ice-cream-generative-ai_786587-13546.jpg?ga=GA1.1.398998164.1711866603&semt=ais_user" alt="">
+        </a>
+        <a href="https://img.freepik.com/premium-photo/photo-chocolate-vanilla-strawberry-ice-cream-isolated-white_925414-18812.jpg?ga=GA1.1.398998164.1711866603&semt=ais_user" class="image ice-cream">
+            <img src="https://img.freepik.com/premium-photo/photo-chocolate-vanilla-strawberry-ice-cream-isolated-white_925414-18812.jpg?ga=GA1.1.398998164.1711866603&semt=ais_user" alt="">
+        </a>
+
+        <a href="https://img.freepik.com/premium-photo/world-chocolate-day-selection-chocolates-with-globe-top_780838-3902.jpg?ga=GA1.1.398998164.1711866603" class="image chocolate">
+            <img src="https://img.freepik.com/premium-photo/world-chocolate-day-selection-chocolates-with-globe-top_780838-3902.jpg?ga=GA1.1.398998164.1711866603" alt="">
+        </a>
+        <a href="https://img.freepik.com/premium-photo/dark-background-with-oranges-chocolate-bars_896782-3446.jpg?ga=GA1.1.398998164.1711866603" class="image chocolate">
+            <img src="https://img.freepik.com/premium-photo/dark-background-with-oranges-chocolate-bars_896782-3446.jpg?ga=GA1.1.398998164.1711866603" alt="">
+        </a>
+
+        <a href="https://img.freepik.com/premium-photo/cake-with-chocolate-raspberries-it_81048-5480.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image cake">
+            <img src="https://img.freepik.com/premium-photo/cake-with-chocolate-raspberries-it_81048-5480.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/free-photo/joyful-birthday-celebration-with-delicious-chocolate-cake-generative-ai_188544-9589.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image cake">
+            <img src="https://img.freepik.com/free-photo/joyful-birthday-celebration-with-delicious-chocolate-cake-generative-ai_188544-9589.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/premium-photo/cake-with-chocolate-raspberries-it_81048-5480.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image cake">
+            <img src="https://img.freepik.com/premium-photo/cake-with-chocolate-raspberries-it_81048-5480.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/free-photo/close-up-creamy-cake-topped-with-chocolate-dipped-pears-cinnamon-stick_140725-8693.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image cake">
+            <img src="https://img.freepik.com/free-photo/close-up-creamy-cake-topped-with-chocolate-dipped-pears-cinnamon-stick_140725-8693.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/premium-photo/chocolate-cake-with-with-berries_127425-304.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image cake">
+            <img src="https://img.freepik.com/premium-photo/chocolate-cake-with-with-berries_127425-304.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+
+        <a href="https://img.freepik.com/free-photo/summertime-smoothie-with-raspberry-blackberry-strawberry-ice_140725-3953.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image juice">
+            <img src="https://img.freepik.com/free-photo/summertime-smoothie-with-raspberry-blackberry-strawberry-ice_140725-3953.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/free-photo/green-cocktail-with-mint-ice-cubes-lemon-slice_114579-3402.jpg?size=626&ext=jpg&ga=GA1.1.398998164.1711866603&semt=sph" class="image juice">
+            <img src="https://img.freepik.com/free-photo/green-cocktail-with-mint-ice-cubes-lemon-slice_114579-3402.jpg?size=626&ext=jpg&ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/free-photo/top-view-alchocol-cocktail-glass-goblet-served-with-lemon-slice-fir-branches-blue-table_140725-130487.jpg?size=626&ext=jpg&ga=GA1.1.398998164.1711866603&semt=sph" class="image juice">
+            <img src="https://img.freepik.com/free-photo/top-view-alchocol-cocktail-glass-goblet-served-with-lemon-slice-fir-branches-blue-table_140725-130487.jpg?size=626&ext=jpg&ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+
+        <a href="https://img.freepik.com/free-photo/grilled-sandwich-fresh-bread-homemade-ready-eat-indulgence-savory-meal-generated-by-artificial-intelligence_188544-128638.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image sandwich">
+            <img src="https://img.freepik.com/free-photo/grilled-sandwich-fresh-bread-homemade-ready-eat-indulgence-savory-meal-generated-by-artificial-intelligence_188544-128638.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/free-photo/panini-sandwich-with-ham-cheese-tomato-arugula-black-slate-background_123827-28322.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image sandwich">
+            <img src="https://img.freepik.com/free-photo/panini-sandwich-with-ham-cheese-tomato-arugula-black-slate-background_123827-28322.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/free-photo/front-view-tasty-ham-sandwiches-with-french-fries-dark-surface_179666-34644.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image sandwich">
+            <img src="https://img.freepik.com/free-photo/front-view-tasty-ham-sandwiches-with-french-fries-dark-surface_179666-34644.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+        <a href="https://img.freepik.com/free-photo/grilled-sandwich-with-bacon-fried-egg-tomato-lettuce-served-wooden-cutting-board_1150-42571.jpg?ga=GA1.1.398998164.1711866603&semt=sph" class="image sandwich">
+            <img src="https://img.freepik.com/free-photo/grilled-sandwich-with-bacon-fried-egg-tomato-lettuce-served-wooden-cutting-board_1150-42571.jpg?ga=GA1.1.398998164.1711866603&semt=sph" alt="">
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    $('.buttons').click(function(){
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+        var filter = $(this).attr('data-filter')
+
+        if(filter == 'all'){
+            $('.image').show(400);
+        }else{
+            $('.image').not('.'+filter).hide(200);
+            $('.image').filter('.'+filter).show(400);
+        }
+
+    });
+
+    $('.gallery').magnificPopup({
+
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
+
+    });
+
+});
+
+</script>
+    
+</body>
+</html>
